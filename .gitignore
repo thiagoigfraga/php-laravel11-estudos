@@ -1,0 +1,37 @@
+# Ignore vendor directory
+/vendor
+
+# Ignore node_modules directory
+/node_modules
+
+# Ignore environment file
+.env
+
+# Ignore any log files
+/storage/*.log
+
+# Ignore Mix-manifest file
+/public/mix-manifest.json
+
+# Ignore compiled application JavaScript
+/public/js/*.js
+
+# Ignore compiled application CSS
+/public/css/*.css
+
+# Ignore any compiled Blade files
+/storage/*.php
+
+# Ignore local PHP development server file
+.php
+
+# Ignore Homestead/Vagrant Box directory
+/.vagrant
+
+# Ignore IDE specific files
+/.idea
+/.vscode
+
+# Ignore any personal configuration files
+/.env.*
+
