@@ -1,4 +1,9 @@
-@extends('layouts.app')
-
-@section('title', 'About')
-@section('page_name', 'About')
+<x-app>
+  <x-slot:title>
+    About
+  </x-slot:title>
+  <x-slot:heading>
+    About Page
+  </x-slot:heading>
+  <h1>Welcome to About Page</h1>
+</x-app>
